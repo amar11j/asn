@@ -2751,7 +2751,3 @@ if Pilihan == 'ECG2':
 
         st.write("Intervals:", interval)
         st.pyplot(plt)
-
-
-
-    
