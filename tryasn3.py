@@ -1416,7 +1416,7 @@ if Pilihan == 'ECG1':
             return np.arange(N) * sampling_rate / N
             
         fft_result = fourier_transform(bpm_rr_baseline_windowed)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq = calculate_frequency(len(bpm_rr_baseline_windowed), sampling_rate)
         half_point = len(fft_freq) // 2
         fft_freq_half = fft_freq[:half_point]
@@ -1457,7 +1457,7 @@ if Pilihan == 'ECG1':
         
         
         fft_result1 = fourier_transform(bpm_rr_baseline_windowed1)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq1 = calculate_frequency(len(bpm_rr_baseline_windowed1), sampling_rate)
         half_point1 = len(fft_freq1) // 2
         fft_freq_half1 = fft_freq1[:half_point1]
@@ -1498,7 +1498,7 @@ if Pilihan == 'ECG1':
             return np.arange(N) * sampling_rate / N
         
         fft_result2 = fourier_transform(bpm_rr_baseline_windowed2)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq2 = calculate_frequency(len(bpm_rr_baseline_windowed2), sampling_rate)
         half_point2 = len(fft_freq2) // 2
         fft_freq_half2 = fft_freq2[:half_point2]
@@ -1543,7 +1543,7 @@ if Pilihan == 'ECG1':
         
         
         fft_result3 = fourier_transform(bpm_rr_baseline_windowed3)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq3 = calculate_frequency(len(bpm_rr_baseline_windowed3), sampling_rate)
         half_point3 = len(fft_freq3) // 2
         fft_freq_half3 = fft_freq3[:half_point3]
@@ -1589,7 +1589,7 @@ if Pilihan == 'ECG1':
         
         
         fft_result4 = fourier_transform(bpm_rr_baseline_windowed4)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq4 = calculate_frequency(len(bpm_rr_baseline_windowed4), sampling_rate)
         half_point4 = len(fft_freq4) // 2
         fft_freq_half4 = fft_freq4[:half_point4]
@@ -1633,7 +1633,7 @@ if Pilihan == 'ECG1':
             return np.arange(N) * sampling_rate / N
         
         fft_result5 = fourier_transform(bpm_rr_baseline_windowed5)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq5 = calculate_frequency(len(bpm_rr_baseline_windowed5), sampling_rate)
         half_point5 = len(fft_freq5) // 2
         fft_freq_half5 = fft_freq5[:half_point5]
@@ -1674,7 +1674,7 @@ if Pilihan == 'ECG1':
         
         
         fft_result6 = fourier_transform(bpm_rr_baseline_windowed6)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq6 = calculate_frequency(len(bpm_rr_baseline_windowed6), sampling_rate)
         half_point6 = len(fft_freq6) // 2
         fft_freq_half6 = fft_freq6[:half_point6]
@@ -1714,7 +1714,7 @@ if Pilihan == 'ECG1':
             return np.arange(N) * sampling_rate / N
         
         fft_result7 = fourier_transform(bpm_rr_baseline_windowed7)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq7 = calculate_frequency(len(bpm_rr_baseline_windowed7), sampling_rate)
         half_point7 = len(fft_freq7) // 2
         fft_freq_half7 = fft_freq7[:half_point7]
@@ -1756,7 +1756,7 @@ if Pilihan == 'ECG1':
         
         
         fft_result8 = fourier_transform(bpm_rr_baseline_windowed8)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq8 = calculate_frequency(len(bpm_rr_baseline_windowed8), sampling_rate)
         half_point8 = len(fft_freq8) // 2
         fft_freq_half8 = fft_freq8[:half_point8]
@@ -2297,7 +2297,7 @@ if Pilihan == 'ECG2':
             return np.arange(N) * sampling_rate / N
         
         fft_result = fourier_transform(bpm_rr_baseline_windowed)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq = calculate_frequency(len(bpm_rr_baseline_windowed), sampling_rate)
         half_point = len(fft_freq) // 2
         fft_freq_half = fft_freq[:half_point]
@@ -2336,7 +2336,7 @@ if Pilihan == 'ECG2':
         def calculate_frequency(N, sampling_rate):
             return np.arange(N) * sampling_rate / N
         fft_result1 = fourier_transform(bpm_rr_baseline_windowed1)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq1 = calculate_frequency(len(bpm_rr_baseline_windowed1), sampling_rate)
         half_point1 = len(fft_freq1) // 2
         fft_freq_half1 = fft_freq1[:half_point1]
@@ -2376,7 +2376,7 @@ if Pilihan == 'ECG2':
             return np.arange(N) * sampling_rate / N
         
         fft_result2 = fourier_transform(bpm_rr_baseline_windowed2)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq2 = calculate_frequency(len(bpm_rr_baseline_windowed2), sampling_rate)
         half_point2 = len(fft_freq2) // 2
         fft_freq_half2 = fft_freq2[:half_point2]
@@ -2420,7 +2420,7 @@ if Pilihan == 'ECG2':
 
         
         fft_result3 = fourier_transform(bpm_rr_baseline_windowed3)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq3 = calculate_frequency(len(bpm_rr_baseline_windowed3), sampling_rate)
         half_point3 = len(fft_freq3) // 2
         fft_freq_half3 = fft_freq3[:half_point3]
@@ -2464,7 +2464,7 @@ if Pilihan == 'ECG2':
         
         
         fft_result4 = fourier_transform(bpm_rr_baseline_windowed4)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq4 = calculate_frequency(len(bpm_rr_baseline_windowed4), sampling_rate)
         half_point4 = len(fft_freq4) // 2
         fft_freq_half4 = fft_freq4[:half_point4]
@@ -2507,7 +2507,7 @@ if Pilihan == 'ECG2':
             return np.arange(N) * sampling_rate / N
         
         fft_result5 = fourier_transform(bpm_rr_baseline_windowed5)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq5 = calculate_frequency(len(bpm_rr_baseline_windowed5), sampling_rate)
         half_point5 = len(fft_freq5) // 2
         fft_freq_half5 = fft_freq5[:half_point5]
@@ -2547,7 +2547,7 @@ if Pilihan == 'ECG2':
         
         
         fft_result6 = fourier_transform(bpm_rr_baseline_windowed6)
-        sampling_rate = 1
+        sampling_rate = 60/rata
         fft_freq6 = calculate_frequency(len(bpm_rr_baseline_windowed6), sampling_rate)
         half_point6 = len(fft_freq6) // 2
         fft_freq_half6 = fft_freq6[:half_point6]
@@ -2754,12 +2754,4 @@ if Pilihan == 'ECG2':
 
 
 
-        
-        
-        
-        
-
-
-
-
-        
+    
